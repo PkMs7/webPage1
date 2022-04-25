@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.414);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 30px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    text-align: right;
+}
+
+.hero nav a{
+    background-color: rgba(0, 0, 0, 0.362);
+    display: block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: rgb(91, 88, 88);
+    color: white;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.content-section2{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.content-section2 h2{
+    background-color: #ccc;
+    box-shadow: 2px 2px 3px rgb(124, 124, 124);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.467);
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 3px 3px 5px black;
+    padding: 5px;
+    margin-top: 15px;
+}
